@@ -179,7 +179,8 @@ span{
 .about p{
     letter-spacing: 2px;
     line-height: 25px;
-    word-wrap: break-all;
+    word-wrap:break-word;
+    
 }
 
 .read-more{
