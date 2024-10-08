@@ -49,6 +49,8 @@ let readMore = document.querySelector('.read-more')
 readBtn.addEventListener('click', () => {
    if( readMore.style.display === "block"){
       readMore.style.display = "none"
+         readBtn.innerText = "Read more"
+
    }else{
      readBtn.innerText = "Read less"
      readMore.style.display = "block"
