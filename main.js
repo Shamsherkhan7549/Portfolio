@@ -16,6 +16,7 @@ let icon1 = document.querySelector(".navbar :nth-child(1)");
 let icon2 = document.querySelector(".navbar :nth-child(2)");
 let icon3 = document.querySelector(".navbar :nth-child(3)");
 let icon4 = document.querySelector(".navbar :nth-child(4)");
+let icon5 = document.querySelector(".navbar :nth-child(5)");
 
 menuIcon.addEventListener('click', () => {
     if(icon1.style.right === '2rem'){
@@ -41,6 +42,12 @@ menuIcon.addEventListener('click', () => {
     }else{
         icon4.style.right = '2rem'
     }
+
+    if(icon5.style.right === '2rem'){
+        icon5.style.right = '-750px'
+    }else{
+        icon5.style.right = '2rem'
+    }
 });
 
 let readBtn = document.querySelector('#read-btn');
@@ -55,4 +62,6 @@ readBtn.addEventListener('click', () => {
      readBtn.innerText = "Read less"
      readMore.style.display = "block"
    }
+
+   
 })

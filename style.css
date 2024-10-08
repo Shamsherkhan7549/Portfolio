@@ -85,7 +85,11 @@ section{
 .home p{
     letter-spacing: 2px;
     line-height: 30px;
-    word-wrap: break-all;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+
+
 }
 
 .home-content h3 {
@@ -135,6 +139,7 @@ span{
     font-size: 1.6rem;
     word-wrap:break-word;
     word-break: break-all;
+    hyphens: auto;
 }
 
 .social-media a {
@@ -168,6 +173,7 @@ span{
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    border: none;
 }
 
 .btn:hover{
@@ -212,8 +218,9 @@ span{
     margin: 2rem 0 3rem;
     letter-spacing: 2px;
     line-height: 25px;
-    word-wrap:break-word;
-    word-break: break-all;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 /* Skills styles */
@@ -547,7 +554,7 @@ span{
     padding: 5px 10px;
     border-radius: 3px;
     border: 1px solid black;
-    opacity: .7;
+    opacity: .8.5;
     transition: ease-in-out .4s;
     background-color: rgba(34, 34, 218, 0.932);
     text-align: center;
@@ -564,7 +571,7 @@ span{
     right: -150px;
     margin-top: -4rem;
     padding: 5px 10px;
-    transition:ease-in .4s;
+    transition:ease-in-out .2s;
   }
 
   .navbar :nth-child(2){
@@ -572,7 +579,7 @@ span{
     right: -300px;
     margin-top: 0rem;
     padding: 5px 10px;
-    transition:ease-in .6s;
+    transition:ease-in-out .3s;
 
   }
 
@@ -581,7 +588,7 @@ span{
     right: -450px;
     margin-top: 4rem;
     padding: 5px 10px;
-    transition:ease-in .8s;
+    transition:ease-in-out .4s;
 
   }
 
@@ -590,7 +597,16 @@ span{
     right: -600px;
     margin-top: 8rem;
     padding: 5px 10px;
-    transition:ease-in 1s;
+    transition:ease-in-out .5s;
+
+  }
+
+  .navbar :nth-child(5){
+    position: absolute;
+    right: -750px;
+    margin-top: 12rem;
+    padding: 5px 10px;
+    transition:ease-in-out .6s;
 
   }
 }
