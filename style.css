@@ -86,7 +86,7 @@ section{
     letter-spacing: 2px;
     line-height: 30px;
     word-wrap: break-word;
-    word-break: break-word;
+    word-break: break-all;
     hyphens: auto;
 
 
