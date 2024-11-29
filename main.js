@@ -61,7 +61,25 @@ readBtn.addEventListener('click', () => {
    }else{
      readBtn.innerText = "Read less"
      readMore.style.display = "block"
-   }
+   }   
+});
 
-   
-})
+let eCommerce = document.querySelector('.e-commerce');
+
+eCommerce.addEventListener('click', () => {
+    window.location.href = 'https://ecommerceforeverwebsite.netlify.app/';
+});
+
+let weather = document.querySelector('.weather');
+
+weather.addEventListener('click', () => {
+    window.location.href = 'https://weatherwebsite75.netlify.app';
+});
+
+
+
+let calculator = document.querySelector('.calculator');
+
+calculator.addEventListener('click', () => {
+    window.location.href = 'https://simple-calculator-app-react.netlify.app';
+});
