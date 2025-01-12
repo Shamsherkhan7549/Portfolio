@@ -17,12 +17,14 @@ This project showcases my skills, projects, and experiences. Built with **HTML**
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone
+   git clone https://shamsherkhan7549.github.io/Portfolio
 
   # 🔧 Technologies Used
 HTML5: For semantic and structured content.
 CSS3: For styling and responsiveness.
 JavaScript: For interactivity and dynamic content.
+
+
 # 📬 Contact
 Feel free to reach out if you have any feedback or opportunities to collaborate!
 
