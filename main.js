@@ -83,3 +83,21 @@ let calculator = document.querySelector('.calculator');
 calculator.addEventListener('click', () => {
     window.location.href = 'https://simple-calculator-app-react.netlify.app';
 });
+
+let rentYroom = document.querySelector('.rentYroom');
+
+rentYroom.addEventListener('click', () => {
+    window.location.href = "https://rentyroom-major-project.onrender.com";
+});
+
+let flavoroFood = document.querySelector('.flavoro');
+
+flavoroFood.addEventListener('click', () => {
+    window.location.href = "https://food-app-three-sigma.vercel.app/";
+});
+
+let recipes = document.querySelector('.recipes');
+
+recipes.addEventListener('click', () => {
+    window.location.href = "https://basic-recipes-app.netlify.app/";
+});
